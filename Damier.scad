@@ -56,7 +56,7 @@ module damier (Taille = 10,Hauteur =0, Epaisseur = 1, Noir = [1,1,1] , Blanc = [
     }
 
 // Pions Marrons
-pion(La=1,Lb=4,Lc=1,Ld=1,Color=Marron,Taille=Taille,Hauteur=Hauteur,Epaisseur=Epaisseur*2);
+pion(La=1,Lb=4,Lc=1,Ld=0,Color=Marron,Taille=Taille,Hauteur=Hauteur,Epaisseur=Epaisseur*2);
 
 // Pions  Beiges
 pion(La=7,Lb=10,Lc=1,Ld=0,Color=Beige,Taille=Taille,Hauteur=Hauteur,Epaisseur=Epaisseur);
